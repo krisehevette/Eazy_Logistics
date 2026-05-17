@@ -1,0 +1,17 @@
+Project structure for: Eazy_Logistics
+
+├── .git  [hidden]
+├── .gitattributes  [hidden]
+├── .gitignore  [hidden]
+├── .obsidian  [hidden]
+├── .vs  [hidden]
+├── LICENSE.txt
+├── README.md
+├── project_documentation/
+│   ├── project_context.md
+│   ├── project_log.md
+│   ├── project_structure.txt
+│   └── todo_list.md
+├── scripts/
+│   └── update_project_structure.py
+└── src/
