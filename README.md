@@ -1,3 +1,3 @@
 Однажды Лупа и Пупа пришли на завод за зарплатой, но у завода был EazyLogistics, поэтому в бухгалтерии ничего не перепутали и каждый получил свою зарплату.
 
-Основной документ проекта — "[project_context.md](project_documentation/project_context)"
+Основной документ проекта — "[project_context.md](/project_documentation/project_context.md)"

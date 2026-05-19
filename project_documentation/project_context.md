@@ -83,7 +83,7 @@
 
 ## 4. Архитектура проекта
 
-Подробная архитектура приложения изложена в документе "[architecture_overview.md](project_documentation/architecture_overview)"
+Подробная архитектура приложения изложена в документе "[architecture_overview.md](/project_documentation/architecture_overview.md)"
 
 ### 4.1 Основа архитектуры
 
@@ -93,7 +93,7 @@
 
 ### 4.2. Общая структура
 
-Текущая структура проекта полностью описана в документе "[project_structure.md](project_documentation/project_structure)"
+Текущая структура проекта полностью описана в документе "[project_structure.md](/project_documentation/project_structure.md)"
 
 ### 4.3. Принципы разработки
 
@@ -120,5 +120,5 @@
 
 ## 6. Текущий статус и история проекта
 
-- История проекта хранится в отдельном файле документации под названием "[project_log.md](project_documentation/project_log.md)"
-- Список задач на последующие дни хранится в файле "[todo_list.md](project_documentation/todo_list.md)"
+- История проекта хранится в отдельном файле документации под названием "[project_log.md](/project_documentation/project_log.md)"
+- Список задач на последующие дни хранится в файле "[todo_list.md](/project_documentation/todo_list.md)"
