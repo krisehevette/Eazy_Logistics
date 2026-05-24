@@ -28,7 +28,7 @@ def _walk(path: str, file_handle, prefix: str):
 
         # Скрытые папки — не раскрываем, только отмечаем
         if is_hidden(entry) and os.path.isdir(full_path):
-            file_handle.write(prefix + connector + entry + "  [hidden]\n")
+            file_handle.write(prefix + connector + entry + "  *hidden*\n")
             continue
 
         if os.path.isfile(full_path):
