@@ -1,9 +1,13 @@
 import os
 
+HIDDEN_LIST = [
+    'x64'
+]
+
 
 def is_hidden(name: str) -> bool:
     """Папки/файлы, начинающиеся с точки, считаем скрытыми."""
-    return name.startswith('.') and name not in ('.', '..')
+    return name.startswith('.') or name in HIDDEN_LIST
 
 
 def write_tree(root_path: str, output_file: str):

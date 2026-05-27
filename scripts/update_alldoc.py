@@ -9,6 +9,8 @@ FILES_TO_INCLUDE = {
     "UI_architecture.md": True,
     "UI_context.md": True,
     "rendering_pipeline.md": True,
+    "core_context.md": True,
+    "event_bus.md": True
 }
 
 DOCS_DIR = "project_documentation"

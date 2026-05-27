@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Eazy_Logistics.vcxproj" Id="05b6fe4c-e3f9-457d-bd10-b7c388cfd527" />
+</Solution>
