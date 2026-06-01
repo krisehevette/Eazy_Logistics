@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
+
+template<typename T>
+void show(const T& value) {
+    std::cout << value << "\n";
+}
 
 int main() {
-    int x = 5;
-    int* p = &x;
-    *p = 20;
-
-    std::cout << p;
-    return 0;
+    show(std::string("hi"));
 }

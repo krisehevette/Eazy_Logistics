@@ -10,12 +10,17 @@ FILES_TO_INCLUDE = {
     "UI_context.md": True,
     "rendering_pipeline.md": True,
     "core_context.md": True,
-    "event_bus.md": True
+    "event_bus.md": True,
+    "application_initialization.md": True,
+    "application_main_loop.md": False,
+    "application_shutdown.md": False,
+    "application_startup.md": True
 }
 
 DOCS_DIR = "project_documentation"
-MAIN_FILE = "project_context.md"  
+# MAIN_FILE = "project_context.md"  
 # MAIN_FILE = "UI/UI_context.md"
+MAIN_FILE = "Core/application_initialization.md"
 OUTPUT_FILE = os.path.join(DOCS_DIR, "all_doc.md")
 
 HEADER_RE = re.compile(r"^(#+)\s")
