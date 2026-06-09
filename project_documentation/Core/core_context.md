@@ -9,11 +9,11 @@
 
 ## 2. Компоненты Core
 
-- [EventBus](/project_documentation/Core/event_bus.md) — обмен событиями между модулями
-- ApplicationState — глобальное состояние приложения
-- Logger — централизованное логирование
-- Config — загрузка и хранение настроек
-- ModuleRegistry — регистрация модулей и их контрактов
+- [EventBus](/project_documentation/Core/EventBus.md) — обмен событиями между модулями
+- [ApplicationState](/project_documentation/Core/ApplicationState.md) — глобальное состояние приложения
+- [Logger](/project_documentation/Core/Logger.md) — централизованное логирование
+- [Config](/project_documentation/Core/Config.md) — загрузка и хранение настроек
+- [ModuleRegistry](/project_documentation/Core/ModuleRegistry.md) — регистрация модулей и их контрактов
 
 ---
 

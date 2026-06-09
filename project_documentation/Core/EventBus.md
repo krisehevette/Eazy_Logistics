@@ -20,15 +20,12 @@
 ## 3. Типы событий
 
 Событие — простая структура данных:
-
-cpp
-```
+```cpp
 struct EmailFetched { /* поля */ };
 struct DocumentGenerated { /* поля */ };
 ```
 
 Требования:
-
 - без виртуальных методов
 - без логики
 - только данные
@@ -38,25 +35,19 @@ struct DocumentGenerated { /* поля */ };
 ## 4. Интерфейс EventBus
 
 ### 4.1 Публикация события
-
-cpp
-```
+```cpp
 template<typename Event>
 void publish(const Event& event);
 ```
 
 ### 4.2 Подписка
-
-cpp
-```
+```cpp
 template<typename Event>
 void subscribe(std::function<void(const Event&)> handler);
 ```
 
 ### 4.3 Отписка (опционально)
-
-cpp
-```
+```cpp
 SubscriptionHandle subscribe(...);  
 handle.unsubscribe();
 ```
@@ -68,8 +59,7 @@ handle.unsubscribe();
 ### 5.1 Хранение подписчиков
 
 Для каждого типа события хранится список обработчиков:
-
-```
+```cpp
 unordered_map<type_index, vector<Handler>>
 ```
 
@@ -99,18 +89,14 @@ unordered_map<type_index, vector<Handler>>
 ## 7. Минимальный пример использования
 
 ### 7.1 Подписка
-
-cpp
-```
+```cpp
 bus.subscribe<EmailFetched>([](const EmailFetched& e) {
     // обработка
 });
 ```
 
 ### 7.2 Публикация
-
-cpp
-```
+```cpp
 EmailFetched ev{/*...*/};
 bus.publish(ev);
 ```
